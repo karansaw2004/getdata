@@ -115,7 +115,7 @@ function App() {
           id="song"
           type="file"
           onChange={handleSongChange}
-          accept=".mp3"
+          accept=".mp3, .mp4a"
         />
         {errors.song && <span className="error">{errors.song}</span>}
 
